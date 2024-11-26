@@ -1,0 +1,109 @@
+.fixed-size-card {
+    width: 18rem;
+    height: 100%; /* Ensure the card takes the full height of its content */
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem; /* Optional: Add some space between cards */
+  }
+  
+  .fixed-size-image {
+    width: 100%;
+    height: 200px; /* Fixed height for the image */
+    object-fit: cover; /* Ensure the image covers the entire area without stretching */
+  }
+  
+  .card-body {
+    flex: 1; /* Allow the card body to grow and fill the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    margin: 0;
+  }
+  
+  .card-text {
+    margin: 10px 0;
+  }
+  
+  .btn {
+    margin-top: auto; /* Push the button to the bottom */
+  }
+  .contact-container {
+  background-color: #f7f8fc;
+  padding: 50px;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-header h2 {
+  color: #5c20d0;
+  font-size: 32px;
+}
+
+.contact-header p {
+  color: #666;
+  font-size: 16px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.contact-form {
+  width: 50%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 15px;
+  background-color: #5c20d0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.privacy-notice {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin-top: 20px;
+}
